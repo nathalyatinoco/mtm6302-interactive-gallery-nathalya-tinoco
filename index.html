@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Gallery</h1>
+    <h2>Our story</h2>
+</html><!-- The grid: four columns -->
+<div class="row">
+    <div class="gallery-filter">
+        <div class="column">
+        <img src="images/image-1.jpg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+        <img src="images/image-2.jpg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+        <img src="images/image-3.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-4.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-5.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-6.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-7.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-8.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-9.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-10.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-11.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/image-12.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+    </div>
+  </div>
+  
+ 
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+      
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
