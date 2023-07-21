@@ -1,5 +1,5 @@
 
-const dogs = [
+const rules = [
     {
         name: 'Card1',
         desc: 'Rule 1',
@@ -7,70 +7,70 @@ const dogs = [
         img: "images/img-1.jpg"
     },
     {
-        name: 'Chakra',
-        desc: 'Doberman',
-        thumb: "images/doberman-thumb.jpg",
-        img: "images/doberman.jpg"
+        name: 'Card2',
+        desc: 'Rule 2',
+        thumb: "images/img-2-thumb.jpg",
+        img: "images/img-2.jpg"
     },
     {
-        name: 'Wolfie',
-        desc: 'Husky',
-        thumb: "images/husky-thumb.jpg",
-        img: "images/husky.jpg"
+        name: 'Card3',
+        desc: 'Rule 3',
+        thumb: "images/img-3-thumb.jpg",
+        img: "images/img-3.jpg"
     },
     {
-        name: 'Alleman',
-        desc: 'German Shepherd',
-        thumb: "images/german-thumb.jpg",
-        img: "images/german.jpg"
+        name: 'Card4',
+        desc: 'Rule 4',
+        thumb: "images/img-4-thumb.jpg",
+        img: "images/img-4.jpg"
     },
     {
-        name: 'Taxi',
-        desc: 'Jack Russell Terrier',
-        thumb: "images/russell-thumb.jpg",
-        img: "images/russell.jpg"
+        name: 'Card5',
+        desc: 'Rule 5',
+        thumb: "images/img-5-thumb.jpg",
+        img: "images/img-5.jpg"
     },
     {
-        name: 'Max',
-        desc: 'Golden Retriever',
-        thumb: 'images/golden-thumb.jpg',
-        img: "images/golden.jpg"
+        name: 'Card6',
+        desc: 'Rule 6',
+        thumb: 'images/img-6-thumb.jpg',
+        img: "images/img-6.jpg"
     },
     {
-        name: 'Daisy',
-        desc: 'Beagle',
-        thumb: 'images/beagle-thumb.jpg',
-        img: "images/beagle.jpg"
+        name: 'Card7',
+        desc: 'Rule 7',
+        thumb: 'images/img-7-thumb.jpg',
+        img: "images/img-7.jpg"
     },
     {
-        name: 'Lola',
-        desc: 'Poodle',
-        thumb: 'images/poodle-thumb.jpg',
-        img: "images/poodle.jpg"
+        name: 'Card8',
+        desc: 'Rule 18',
+        thumb: 'images/img-8-thumb.jpg',
+        img: "images/img-8.jpg"
     },
     {
-        name: 'Rocky',
-        desc: 'Boxer',
-        thumb: 'images/boxer-thumb.jpg',
-        img: "images/boxer.jpg"
+        name: 'Card9',
+        desc: 'Rule 9',
+        thumb: 'images/img-9-thumb.jpg',
+        img: "images/img-9.jpg"
     },
     {
-        name: 'Buddy',
-        desc: 'Labrador Retriever',
-        thumb: 'images/labrador-thumb.jpg',
-        img: "images/labrador.jpg"
+        name: 'Card10',
+        desc: 'Rule 10',
+        thumb: 'images/img-10-thumb.jpg',
+        img: "images/img-10.jpg"
     },
     {
-        name: 'Bella',
-        desc: 'Corgi',
-        thumb: 'images/corgi-thumb.jpg',
-        img: "images/corgi.jpg"
+        name: 'Card11',
+        desc: 'Rule 11',
+        thumb: 'images/img-11-thumb.jpg',
+        img: "images/img-11.jpg"
     },
     {
-        name: 'Rusty',
-        desc: 'Dachshund',
-        thumb: 'images/dachshund-thumb.jpg',
-        img: "images/dachshund.jpg"
+        name: 'Card12',
+        desc: 'Rule 12',
+        thumb: 'images/img-12-thumb.jpg',
+        img: "images/img-12.jpg"
     }
 ];
 
@@ -78,10 +78,10 @@ const gallery = document.getElementById("gallery");
 
 const cards = [];
 
-for (const dog of dogs) {
+for (const rule of rules) {
     const card = `
         <div class="card">
-            <img src="${dog.thumb}" class="dog-img-top" data-fullimg="${dog.img}" data-desc="${dog.desc}">
+            <img src="${rule.thumb}" class="rule-img-top" data-fullimg="${rule.img}" data-desc="${rule.desc}">
         </div>
     `;
     
@@ -96,7 +96,7 @@ const modalImg = document.getElementById("modal-img");
 
 const modalDesc = document.getElementById("modal-desc")
 
-const thumbnails = document.querySelectorAll('.dog-img-top');
+const thumbnails = document.querySelectorAll('.rule-img-top');
 
 
 
