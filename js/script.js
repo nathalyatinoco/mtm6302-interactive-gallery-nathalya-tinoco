@@ -4,73 +4,73 @@ const rules = [
         name: 'Card1',
         desc: 'Rule 1',
         thumb: "images/img-1-thumb.jpg",
-        img: "images/img-1.jpg"
+        img: "images/img-1.JPG"
     },
     {
         name: 'Card2',
         desc: 'Rule 2',
         thumb: "images/img-2-thumb.jpg",
-        img: "images/img-2.jpg"
+        img: "images/img-2.JPG"
     },
     {
         name: 'Card3',
         desc: 'Rule 3',
         thumb: "images/img-3-thumb.jpg",
-        img: "images/img-3.jpg"
+        img: "images/img-3.JPG"
     },
     {
         name: 'Card4',
         desc: 'Rule 4',
         thumb: "images/img-4-thumb.jpg",
-        img: "images/img-4.jpg"
+        img: "images/img-4.JPG"
     },
     {
         name: 'Card5',
         desc: 'Rule 5',
         thumb: "images/img-5-thumb.jpg",
-        img: "images/img-5.jpg"
+        img: "images/img-5.JPG"
     },
     {
         name: 'Card6',
         desc: 'Rule 6',
         thumb: 'images/img-6-thumb.jpg',
-        img: "images/img-6.jpg"
+        img: "images/img-6.JPG"
     },
     {
         name: 'Card7',
         desc: 'Rule 7',
         thumb: 'images/img-7-thumb.jpg',
-        img: "images/img-7.jpg"
+        img: "images/img-7.JPG"
     },
     {
         name: 'Card8',
         desc: 'Rule 18',
         thumb: 'images/img-8-thumb.jpg',
-        img: "images/img-8.jpg"
+        img: "images/img-8.JPG"
     },
     {
         name: 'Card9',
         desc: 'Rule 9',
         thumb: 'images/img-9-thumb.jpg',
-        img: "images/img-9.jpg"
+        img: "images/img-9.JPG"
     },
     {
         name: 'Card10',
         desc: 'Rule 10',
         thumb: 'images/img-10-thumb.jpg',
-        img: "images/img-10.jpg"
+        img: "images/img-10.JPG"
     },
     {
         name: 'Card11',
         desc: 'Rule 11',
         thumb: 'images/img-11-thumb.jpg',
-        img: "images/img-11.jpg"
+        img: "images/img-11.JPG"
     },
     {
         name: 'Card12',
         desc: 'Rule 12',
         thumb: 'images/img-12-thumb.jpg',
-        img: "images/img-12.jpg"
+        img: "images/img-12.JPG"
     }
 ];
 
