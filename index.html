@@ -1,88 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery with JavaScript</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <h1>Gallery</h1>
-    <h2>Our story</h2>
-</html><!-- The grid: four columns -->
-<div class="row">
-    <div class="gallery-filter">
-        <div class="column">
-        <img src="images/image-1.jpg" alt="Nature" onclick="myFunction(this);">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="lightbox">
+      <div class="wrapper">
+        <header>
+          <div class="photographer">
+            <i class="uil uil-camera"></i>
+            <span></span>
+          </div>
+          <div class="buttons">
+            <i class="uil uil-import"></i>
+            <i class="close-icon uil uil-times"></i>
+          </div>
+        </header>
+        <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img"></div>
         </div>
-        <div class="column">
-        <img src="images/image-2.jpg" alt="Snow" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-        <img src="images/image-3.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-4.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-5.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-6.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-7.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-8.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-9.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-10.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-11.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/image-12.jpg" alt="Mountains" onclick="myFunction(this);">
-        </div>
-    </div>
-  </div>
-  
- 
-
- <!-- Modal -->
- <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-      
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        
       </div>
     </div>
-  </div>
-
-  <!-- The expanding image container -->
-  <div class="container">
-    <!-- Close the image -->
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  
-    <!-- Expanded image -->
-    <img id="expandedImg" style="width:100%">
-  
-    <!-- Image text -->
-    <div id="imgtext"></div>
-  </div>
-
-  <script src="js/script.js"></script>
-</body>
-
+    <section class="search">
+      <img src="./images/search-img.jpg" alt="search-img">
+      <div class="content">
+        <h1>Image Gallery with JavaScript</h1>
+        <p>Search and download any images within a second</p>
+        <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input type="text" placeholder="Search images">
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <ul class="images"></ul>
+      <button class="load-more">Load More</button>
+    </section>
+  </body>
 </html>
