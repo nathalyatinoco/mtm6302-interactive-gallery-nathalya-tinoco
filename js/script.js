@@ -15,8 +15,8 @@ const rules = [
     {
         name: 'Card3',
         desc: 'Rule 3: Your purpose comes first',
-        thumb: "images/img-3-thumb.jpg",
-        img: "images/img-3.jpg"
+        thumb: "images/img-9-thumb.jpg",
+        img: "images/img-9.jpg"
     },
     {
         name: 'Card4',
@@ -34,7 +34,7 @@ const rules = [
         name: 'Card6',
         desc: 'Rule 6: Never invalidate or erase the personal reality of someone you love',
         thumb: 'images/img-6-thumb.jpg',
-        img: "images/img-6.Jjpg"
+        img: "images/img-6.jpg"
     },
     {
         name: 'Card7',
@@ -51,8 +51,8 @@ const rules = [
     {
         name: 'Card9',
         desc: 'Rule 9: People who love each other want to be the best they can be for the other.',
-        thumb: 'images/img-9-thumb.jpg',
-        img: "images/img-9.jpg"
+        thumb: 'images/img-3-thumb.jpg',
+        img: "images/img-3.jpg"
     },
     {
         name: 'Card10',
@@ -119,3 +119,4 @@ window.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 });
+
